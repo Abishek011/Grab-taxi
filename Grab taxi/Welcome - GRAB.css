@@ -1,0 +1,97 @@
+body 
+{ 
+    background: url(https://images.unsplash.com/photo-1539364235771-5d3d22dcca67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+.tool
+{
+    background: black;
+    box-sizing: border-box;
+    width: 3000px;
+    height: 50px;
+		
+}
+.s-form{
+	width: 320px;
+	background: rgba(0,0,0,0.3);
+	padding: 40px 20px;
+	box-sizing: border-box;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	margin-bottom: 10%;
+}
+h1
+{
+	text-align: center;
+	color: #fff;
+}
+input
+{
+	width: 100%;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+	margin-bottom: 10%;
+}
+input[type="button"]
+{
+	background: #bac675;
+	border: 0;
+	cursor:pointer;
+	color: #3e3d3d;
+}
+input[type="button"]:hover
+{
+	background :#3d3d3d;
+	transition: -6s;
+}
+#sign
+{
+	color:#fff;
+}
+.quote{
+    width: 1000px;
+	background: rgba(0,0,0,0.2);
+	padding: 40px 20px;
+	box-sizing: border-box;
+	position: fixed;
+	left: 50%;
+    top: 45%;
+    right: 50%;
+	transform: translate(-50%,-50%);
+	margin-bottom: 10%;
+
+}
+.quote1
+{
+    font-size: 50px;
+}
+.quote2
+{
+
+    font-size: 30px;
+}
+.gets {
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 30%;
+    width: 250px;
+    height: 50px;
+}
+.container
+{
+    background:  rgba(0,0,0,0.2);
+}
+.navbar-toggler
+{
+    background-color: none;
+}
